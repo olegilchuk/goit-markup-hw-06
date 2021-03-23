@@ -341,7 +341,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--title-color);
     background: rgba(47, 48, 58, 0.8);
     width: 370px;
     height: 70px;
@@ -636,7 +636,7 @@ body {
     overflow: auto;
     background: rgba(33, 150, 243, 0.9);
 
-    color: #FFFFFF;
+    color: var(--title-color);
     position: absolute;
     transform: translatey(100%);
     
@@ -719,7 +719,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--title-color);
 }
 
 .footer-social-list{
@@ -753,6 +753,69 @@ body {
 .footer-social-icon{
     width: 20px;
     height: 20px;
+}
+
+.footer-mailing-list{
+    display: flex;
+}
+
+.footer-mailing-header{
+    margin-bottom: 20px;
+    margin-top: 12px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--title-color);
+}
+
+.footer-mailing{
+    margin-left: 95px;
+}
+
+.footer-mailing-mail{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+height: 50px;
+left: 815px;
+top: 2785px;
+background: #2F303A;
+color: var(--title-color);
+}
+
+.footer-mailing-btn{
+    padding-left: 24px;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    border: none;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+    color: var(--title-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.footer-mailing_btn-icon{
+    width: 24px;
+    height: 24px;
+    fill:var(--title-color);
+    margin-left: 10px;
 }
 
 /* _______________end footer_______________ */
@@ -861,3 +924,4 @@ border-radius: 4px;
 
     color: var(--text-color);
 }
+
